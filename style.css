@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
 .navbar {
 
 }
 .heading {
-	font-family: 'Josefin Sans';
 	font-size:150px;
 }
 ul {
@@ -44,13 +47,10 @@ h1 {
 
 .body-class {
 	background-image: url('background.png');
-	background-size: 1440px 800px;
-	font-family:arial;
+	background-size: cover;
 	color:white;
 }
 
 .creator-body {
 	color: red;
-	font-family:'Josefin Sans';
-	background-image:url("https://cdn.discordapp.com/attachments/834619375952199739/835331801249218640/unknown.png")
 }
