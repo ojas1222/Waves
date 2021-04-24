@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    font-family: 'montserrat', 'sans-serif' ;
+    color: white;
+}
+
+div.navbar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+div.navbar ul li {
+	float:left;
+	width:200px;
+	height:40px;
+	background-color: black;
+	opacity:.8;
+	line-height: 40px;
+	text-align:center;
+	font-size:20px;
+}
+
+div.navbar ul li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+div.navbar ul li a:hover {
+	background-color:green; 
+}
+div.navbar ul li ul li {
+	display: none;
+}
+div.navbar ul li:hover ul li {
+	display: block;
+}
+
+#ex-id {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
+.navbar, .timer {
+    flex: 1;
+}
+
+div.content li {
+    margin-bottom: 10px;
+}
+
+.body-class {
+    background-image: url('bg1.jpg');
+	background-size: cover;
+}
+
+.content-container {
+    display: flex;
+}
+
+.content {
+    background-color: black;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 25px;
+    display: flex;
+    opacity: 0.8;
+    align-items: center;
+    flex-direction: column;
+}
+
+#video1{
+    border-radius: 15px;
+    margin: 15px;
+}
