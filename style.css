@@ -4,7 +4,7 @@
 	font-family: 'Montserrat', sans-serif;
 }
 .navbar {
-
+  border-radius: 30px; 
 }
 .heading {
 	font-size:150px;
@@ -40,17 +40,22 @@ ul li:hover ul li {
 	display: block;
 }
 
-h1 {
-	font-family: 'Josefin Sans';
+.index-head {
+	font-family: 'Montserrat';
 	font-size:150px;
 }
 
 .body-class {
-	background-image: url('background.png');
+	background-image: url('bg1.jpg');
 	background-size: cover;
 	color:white;
 }
 
 .creator-body {
-	color: red;
+	color: white;
+}
+
+body{
+	background-image: url('bg1.jpg') ;
+	background-size:cover;
 }
