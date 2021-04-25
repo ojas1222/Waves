@@ -75,3 +75,9 @@ div.content li {
     border-radius: 15px;
     margin: 15px;
 }
+
+.creator-photo{
+    border-radius: 200px;
+    height: 420px;
+    width:329px;
+}
