@@ -11,7 +11,7 @@
     <div class="content-container">
         
         <div class="navbar">
-            <img src='cursor.png'/ id="logo">
+            <img src='cursor.png' id="logo">
             <br>
             <span class = "nav-head"> An Online Meditation Platform </span>
             <!-- <ul> 
@@ -162,8 +162,7 @@
                     <li>Pause for a moment looking straight down at your mat with your neck in a neutral position. Anchor your pubic bone to the floor.</li>
                     <li>Inhale to lift your chest off the floor. Roll your shoulders back and keep your low ribs on the floor. Make sure your elbows continue hugging your sides. Don't let them wing out to either side.Keep your neck neutral. Don’t crank it up. Your gaze should stay on the floor.</li>
                 </ol>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/75eZwVHIL-U?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/75eZwVHIL-U?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             `,
             "crow pose": `
                 <span id='ex-id'>Kakasana or Crow Pose</span>
@@ -503,7 +502,7 @@
                 }
             };
 
-            const perEx = 120;
+            const perEx = 10;
 
             const ex_count = document.getElementsByClassName("button select");
             let have = [];
@@ -574,6 +573,9 @@
                 document.getElementsByClassName("next-ex")[0].innerHTML = "Last One To Go!";
             }
 
+            let logo = document.getElementById("logo");
+            logo.setAttribute("class", "meditate-logo");
+
             bgAudio.play();
             startTimer();
 
@@ -587,6 +589,8 @@
                 audio.play();
                 bgAudio.pause();
                 bgAudio.currentTime = 0;
+                let logo = document.getElementById("logo");
+                logo.setAttribute("class", "");
             }
 
             function startTimer() {

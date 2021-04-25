@@ -30,8 +30,15 @@
 #logo {
     width: 150px;
     height: 150px;
+    border-radius: 200px;
+    align-items: center;
+    padding: 20px;
 }
 
+.meditate-logo, #logo:hover {
+    border-color: #66afe9;
+    box-shadow: 0 0 80px rgba(0, 102, 255, 0.6);
+}
 
 .btn {
     /* margin-top: calc(50% + 25px); */
@@ -212,6 +219,10 @@ nav ul li span:nth-child(4) {
     flex: 1;
 }
 
+#pseudo {
+    flex: 1;
+}
+
 #timer {
     background-color: black;
     border-radius: 15px;
@@ -282,6 +293,7 @@ nav ul li span:nth-child(4) {
     color: black;
     margin: 20px;
     font-weight: bold;
+    border-radius: 50px;
 }
 
 .non_select {
@@ -352,3 +364,39 @@ nav ul li span:nth-child(4) {
     font-family: Staatliches, cursive;
 }
   
+.creator-photo {
+    height: 275px;
+    border-radius: 150px;
+    margin: 20px;
+}
+
+.creators {
+    text-align: center;
+    font-weight: bold;
+}
+
+.creators tr td {
+    padding: 10px;
+}
+
+.creators-intro {
+    font-family: Caveat, montserrat;
+    font-size: 1.5em;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+    width: fit-content;
+    opacity: 0.8;
+    padding: 45px;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+}

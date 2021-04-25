@@ -1,43 +1,75 @@
 <html>
-<title> Waves </title>
-<link rel="stylesheet" href="meditation.css">
+<head>
+    <title> Waves </title>
+    <link rel="stylesheet" href="meditation.css">
+</head>
 <body class="body-class">
+    <center>
+    <h1 class="index-head">  Waves </h1>
+    </center>
     <div class="content-container">
         <div class="navbar">
-            <ul> 
-                <li> Info
+            <img src='cursor.png' id="logo">
+            <br>
+            <span class = "nav-head"> An Online Meditation Platform </span>
+            <!-- <ul> 
+                <li> WAVES
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="statistics.html"> Stats </a></li>
-                        <li><a href="about.html"> About </a></li>
-                        <li><a href="creators.html"> Creators </a></li>
+                        <li><a href="statistics.html"> STATS </a></li>
+                        <li><a href="about.html"> ABOUT </a></li>
+                        <li><a href="creators.html"> CREATORS </a></li>
                     </ul>
                 </li>
-            </ul>
+            </ul> -->
+            <nav>
+                <ul>
+                  <li onclick="location.href='index.html';">
+                    HOME
+                    <span></span><span></span><span></span><span></span>
+                  </li>
+                  <li onclick="location.href='about.html';">
+                    ABOUT
+                    <span></span><span></span><span></span><span></span>
+                  </li>
+                  <li onclick="location.href='creators.html';">
+                    CONTACT
+                    <span></span><span></span><span></span><span></span>
+                  </li>
+                </ul>
+            </nav>
         </div>
-        <div class="content">
-            <span id='ex-id'> These are the creators of Waves </span>
-                <table class="steps">
-					<tr>
-						<th><img src="ojas.jpg" class="creator-photo"> </th>
-						<th><img src="praneel.jpg" class="creator-photo"></src> </th>
-						<th><img src="SWASTI.jpeg" class="creator-photo"> </th>
-					</tr>
-					<tr>
-						<td>Ojas Rastogi :-</td>
-						<td>Praneel Rastogi :-</td>
-						<td>Swasti Sharma :-</td>
-					</tr>
-					     <td>Hello!myself Ojas rastogi ,<br> i am a 13-year old who is in 9th grade.<br>
-							My skills are html, css, python and a little bit of javascript. </td>
-						 <td>Hi, I'm Praneel  I am a 7th grader and 13 years old.<br> 
-							I know html, css, javascript, python,<br> and a little bit of sql.</td>
-						 <td>HEY !!
-							I am swasti sharma ,<br> I am 13 years old .<br>
-							I am in 9th grade and I am a beginner at  HTML.</td>
-				</table>
+        <div class="content" style="opacity: 0.9;">
+            <span id='ex-id'> Meet the creators ... </span>
+            <br>
+            <table class="creators">
+                <tr>
+                    <td><img src="ojas.jpg" class="creator-photo"></td>
+                    <td><img src="praneel.jpg" class="creator-photo"></td>
+                    <td><img src="SWASTI.jpeg" class="creator-photo"></td>
+                </tr>
+                <tr>
+                    <td style="font-size: 2em;">🚀</td>
+                    <td style="font-size: 2em;">✨</td>
+                    <td style="font-size: 2em;">🌸</td>
+                </tr>
+                <tr>
+                    <td class="creators-intro">Hello! I am Ojas Rastogi</td>
+                    <td class="creators-intro">Hi, I'm Praneel</td>
+                    <td class="creators-intro">HEY !! I am Swasti Sharma</td>
+                </tr>
+                <tr>
+                    <td>I am a 13-year old who is in 9th grade.</td>
+                    <td>I am a 7th grader and 13 years old.</td>
+                    <td>I am 13 years old.</td>
+                </tr>
+                <tr>
+                    <td>My skills are HTML, CSS, Python and a little bit of Javascript.</td>
+                    <td>I know HTML, CSS, Javascript, Python and a little bit of SQL.</td>
+                    <td>I am in 9th grade and I am a beginner at HTML.</td>
+                </tr>
+            </table>
         </div>
-        <div class="timer">
+        <div id="pseudo">
             
         </div>
     </div>
