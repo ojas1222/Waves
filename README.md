@@ -1,6 +1,8 @@
 # los-atlos-hack-21
 
-### Steps to download and run our website
+#### Our website is hosted as https://ojas1222.github.io/los-atlos-hack-21/! :rocket:
+
+#### Steps to download and run our website
 - Clone the repository
 - Navigate to foldler `los-altos-hack-21`
 - Open file `index.html` in your desired browser
