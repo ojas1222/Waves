@@ -1,6 +1,6 @@
 # los-atlos-hack-21
 
-#### Our website is hosted as https://ojas1222.github.io/los-atlos-hack-21/! :rocket:
+#### Our website is hosted as https://ojas1222.github.io/Waves/! :rocket:
 
 #### Steps to download and run our website
 - Clone the repository
